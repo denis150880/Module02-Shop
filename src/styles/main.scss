@@ -1,0 +1,10 @@
+$bg: #ff0;
+.box{
+    background-color: $bg;
+    &_title{
+      color: #f00;
+    }
+    &_image {
+        max-width: 200px;
+    }
+}
